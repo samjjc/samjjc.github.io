@@ -2,8 +2,30 @@
 <html><head>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
   <body>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Tundr</h4>
+      </div>
+      <div class="modal-body">
+        <p>A music geocaching app</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
     <div class="container">
     <div class="row">
       <div class="col-md-6"><img src="images/100x100" class="img-responsive"></div>
@@ -25,26 +47,27 @@
     </div>
     <div class = "row text-center">
       <div class = "col-md-6">
-        <img src="http://placekitten.com/g/555/300" class="img-responsive">
-        <h3>Tundr</h3>
-        <p><a href="https://github.com/samjjc/Tundr">Link to project</a></p>
+        <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#myModal">
+        <h3><a href="https://github.com/samjjc/Tundr">Tundr</a></h3>
       </div>
       <div class="col-md-6">
-        <img src="http://placekitten.com/g/555/300" class="img-responsive">
-        <h3>Tundr</h3>
-        <p><a href="https://github.com/samjjc/Tundr">Link to project</a></p>
+        <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#myModal">
+        <h3><a href="https://github.com/samjjc/Tundr">Tundr</a></h3>
       </div>
     </div>
-    <div class="row text-center">
-      <div class="col-md-6">
-        <img src="http://placekitten.com/g/555/300" class="img-responsive">
-        <h3>Tundr</h3>
-        <p><a href="https://github.com/samjjc/Tundr">Link to project</a></p>
+    <div>
+      <div class = "col-md-12">
+        <hr>
       </div>
-      <div class-"col-md-6">
-        <img src="http://placekitten.com/g/555/300" class="img-responsive">
-        <h3>Tundr</h3>
-        <p><a href="https://github.com/samjjc/Tundr">Link to project</a></p>
+      </div>
+    <div class = "row text-center">
+      <div class = "col-md-6">
+        <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#myModal">
+        <h3><a href="https://github.com/samjjc/Tundr">Tundr</a></h3>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/g/555/300" class="img-responsive" data-toggle="modal" data-target="#myModal">
+        <h3><a href="https://github.com/samjjc/Tundr">Tundr</a></h3>
       </div>
     </div>
     </div>
