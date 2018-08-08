@@ -1,6 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: single
+title: A Bit About Me
+author_profile: true
 ---
+
+I'm a 2nd year software engineering student at Carleton and I'm about to start interning as an ETL developer at [Fullscript](https://fullscript.com) 

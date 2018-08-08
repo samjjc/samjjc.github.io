@@ -13,25 +13,52 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Sam Catherasoo
+email: sam111jc@gmail.com
+name: "Samuel Catherasoo"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My personal website where you can find my resume, blog posts, and contact info.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  samjjc
+repository: "samjjc/samjjc.github.io"
 
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 remote_theme: "mmistakes/minimal-mistakes"
+search: true
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+
+social:
+  links:
+    - "https://www.linkedin.com/in/samjjc"
+    - "https://www.github.com/samjjc"
+
+author:
+  name   : "Samuel Catherasoo"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : ETL Engineer Intern @Fullscript | 2nd year software Engineering @Carleton
+  email  : sam111jc@gmail.com
+  github : samjjc
+  linkedin: samjjc
+  uri    : "http://your-site.com"
+  home   : # null (default), "absolute or relative url to link to author home"
+
+compress_html:
+  clippings: all
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
