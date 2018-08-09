@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   My personal website where you can find my resume, blog posts, and contact info.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  samjjc
 repository: "samjjc/samjjc.github.io"
 
@@ -50,11 +49,10 @@ social:
 author:
   name   : "Samuel Catherasoo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : ETL Engineer Intern @Fullscript | 2nd year software Engineering @Carleton
+  bio    : Software Developer | Eng Student
   email  : sam111jc@gmail.com
   github : samjjc
   linkedin: samjjc
-  uri    : "http://your-site.com"
   home   : # null (default), "absolute or relative url to link to author home"
 
 compress_html:
