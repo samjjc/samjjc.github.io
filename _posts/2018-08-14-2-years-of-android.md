@@ -8,7 +8,7 @@ I still remember the first time I downloaded Android Studio back in October 2016
  
  When I first started learning android, I had also just started my degree in software engineering so I was a very inexperience developer. I initially learned independently, none of my other friends did any android development, so I didn't have any real mentor to guide me. This led to a lot of mistakes that I didn't even realize I was making, causing me to waste a lot of time as my side projects grew larger.
 
- About a year later, I managed to land a competitive internship as an android developer and got pair with an experienced mentor who was able to guide me and help me develop software the right way. Both phases of my development taught me valuable lessons, both on what I should do and what I shouldn't do.
+ About a year later, I managed to land a competitive internship as an android developer and got paired with an experienced mentor who was able to guide me and help me develop software the right way. Both phases of my development taught me valuable lessons, both on what I should do and what I shouldn't do.
 
  Hopefully this article will help you get started faster and you will avoid the traps that I initially fell into. Some points will apply to programming in general, and others will be more android focused
 
