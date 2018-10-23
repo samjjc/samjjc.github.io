@@ -25,7 +25,6 @@ repository: "samjjc/samjjc.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 plugins:
   - jekyll-paginate
