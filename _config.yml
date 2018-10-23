@@ -73,7 +73,6 @@ author:
   bio    : Software Developer | Eng Student
   email  : sam111jc@gmail.com
   github : samjjc
-  linkedin: samjjc
   home   : # null (default), "absolute or relative url to link to author home"
 
 compress_html:
