@@ -3,7 +3,7 @@ title: A Bit About Me
 permalink: /
 ---
 
-I'm a 2nd year software engineering student at Carleton and will be interning at [Stripe](http://stripe.com) in the Summer.
+I'm a 2nd year software engineering student at Carleton and will be interning at [Stripe](http://stripe.com){:target="_blank"} in the Summer.
 
 I enjoy building things with **Go**, **Kotlin**, **Python**, and **Ruby** and am always looking to learn about new tools. I’m passionate about using technology to improve the daily lives of people around me. I love solving problems related to performance and scalability and I like to focus on keeping my code maintainable and simple.
 

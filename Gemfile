@@ -10,6 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
+gem "jekyll-include-cache"
 
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
